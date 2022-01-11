@@ -23,7 +23,7 @@ fi
 
 
 cd /usr/local/src
-wget -O csf.tgz https://cloud.cunghocweb.com/directadmin/csf/csf.tgz
+wget -O csf.tgz https://github.com/cunghocweb/cunghocweb.com/blob/main/csf.tgz
 
 if [ ! -s csf.tgz ]; then
 	echo "csf.tgz download failed."
